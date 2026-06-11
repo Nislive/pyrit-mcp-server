@@ -1,0 +1,16 @@
+[project]
+name = "pyrit-mcp-server"
+version = "0.2.0"
+description = "Modular MCP server wrapping Microsoft PyRIT for authorized AI red-teaming"
+requires-python = ">=3.11"
+dependencies = [
+    "pyrit==0.14.0",
+    "mcp>=1.27",
+]
+
+[project.scripts]
+pyrit-mcp-server = "pyrit_mcp_server.main:mcp.run"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
