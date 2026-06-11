@@ -4,8 +4,7 @@
 
 # Python
 __pycache__/
-examples/__pycache__
-pyrit_mcp_server/__pycache__
+
 *.py[cod]
 *.egg-info/
 .pytest_cache/
